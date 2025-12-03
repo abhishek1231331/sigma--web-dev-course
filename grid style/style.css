@@ -15,9 +15,8 @@
         column-gap: 10px;
         justify-items: center ;
         align-items: center ;
-        /* jusstify content align  content  these all are the commands */
-        place-content: inherit;
-
+        justify-content: space-around;
+        align-content: center;
 }
 
 .item{
@@ -26,10 +25,15 @@
     background-color: brown;
     border: 1px solid black;
     color: white;
+     grid-column-start: 2;
+    /* grid-row: 3; */
+    
 }
 
-/* .item1{
+.item1{
     grid-area: header;
+    justify-self: flex-end;
+    
 }
 
 .item2{
@@ -42,4 +46,4 @@
 
 .item4{
     grid-area: footer;
-} */
+}

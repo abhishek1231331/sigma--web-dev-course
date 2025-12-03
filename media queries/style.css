@@ -1,0 +1,26 @@
+/* p{
+    color: pink;
+} */
+
+@media (max-width: 760px) {
+
+
+.box{
+    height: 100%;
+    width: 100px;
+    background-color: green;
+}
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+h1{
+    background-color: brown;
+}
