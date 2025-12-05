@@ -1,10 +1,9 @@
-/* p{
+/* /* p{
     color: pink;
 } */
 
-@media (max-width: 760px) {
-
-
+ @media (max-width: 760px) {
+/* 
 .box{
     height: 100%;
     width: 100px;
@@ -19,8 +18,49 @@ li{
 nav ul{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+
+} */
+h1{
+    background-color:whitesmoke;
+} 
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background: #333;
+    padding: items;
+}
+.logo{
+    color: aliceblue;
+}
+.menu{
+    background:#444;
+    position: absolute;
+    top: 60px;
+    width: 200px;
+}
+.menu a{
+    color: aqua
+    ;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
 
 }
-h1{
-    background-color: brown;
+.hamburger{
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
 }
+@media(min-width: 760px){
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+    }
+}
+ }
